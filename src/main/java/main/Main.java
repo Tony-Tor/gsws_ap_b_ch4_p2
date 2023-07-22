@@ -12,7 +12,7 @@ public class Main {
 
         var comment = new Comment();
         comment.setAuthor("Tony");
-        comment.setAuthor("Demo comment");
+        comment.setText("Demo comment");
 
         commentService.publishComment(comment);
     }

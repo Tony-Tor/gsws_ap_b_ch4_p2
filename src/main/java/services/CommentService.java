@@ -3,10 +3,11 @@ package services;
 import main.Comment;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import proxies.CommentNotificationProxy;
 import repositories.CommetRepository;
 
-@Component
+@Service
 public class CommentService {
     private final CommetRepository commetRepository;
     private final CommentNotificationProxy commentNotificationProxy;
